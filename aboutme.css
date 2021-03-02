@@ -1,0 +1,11 @@
+span.bg-clip-text.text-transparent.bg-gradient-to-r.from-green-400.to-blue-500 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+img {
+
+    padding: 20px;
+
+}
