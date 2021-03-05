@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="stylesheets/contactme.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Spartan:wght@200;400&display=swap" rel="stylesheet">
+
+        <title>Contact Me</title>
+        <style>
+
+html { font-size: 22px; }
+body { padding: 1rem; }
+.card {
+  background-color: #ffe6e6;
+  color: white;
+  padding: 1rem;
+  height: 47rem;
+}
+
+.card1 {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+  height: 32rem;
+}
+
+.card2 {
+  background-color: white;
+  color: white;
+  padding: 1rem;
+  height: 32rem;
+}
+
+.cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 1rem;
+  width: -webkit-fill-available;
+}
+
+@media (min-width: 768px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 1200px) {
+  .cards { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 320px) {
+  .cards { grid-template-columns: repeat(1, 1fr); }
+
+  p {
+    font-size: 30px;
+  }
+}
+
+ </style>
+
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor03">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Contact Me
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="homepage.html" target="_blank">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about me.html" target="_blank">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact me.html" target="_blank">Contact Me</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+ <div class="cards">
+<div class="card1">
+  <h1>
+    CONTACT ME</h1>
+   </span>
+</div>
+<div class="card">
+  <p>I would love to hear from you, so whether you need a quote, have a question or just want to say hello, please feel free to drop me a line.</p>
+</div>
+<div class="card">
+  <form action="https://formspree.io/f/maylzoda" method="POST">
+    <ul>
+      <li>
+    <label for="userName">Name</label>
+
+    <input type="text" id="userName" name="userName" required />
+  </li>
+  <li>
+
+   <label for="email">Email</label>
+
+
+   <input type="email" id="email" name="email" required />
+  </li>
+
+  <li>
+   <label for="website">Website</label>
+  <input type="url" id="website" name="website" required />
+  </li>
+<li>
+     <label>Message</label>
+       <textarea name="message" required></textarea>
+      </li>
+    </ul>
+    
+    <button type="button">
+      Send
+    </button>
+
+
+</form>
+      
+
+</div>
+<div class="card2">
+  <h1>NEED A PROPOSAL FOR YOUR PROJECT</h1>
+           <p>If you have a great project in mind and are looking for some professional, talented people to work with, then fill in the <span style="color: #ffabe1">Project Planner Questionnaire</span>.</p>
+
+           <p>I’ ll get back to you very soon to discuss your project and provide you with a custom proposal.</p>
+           <div class="contacticons">
+<img src="images/smartphone.jpg" alt="smartphone" />
+</div>
+
+<p style="text-align:center;">Call me at <span style="color:#ffabe1;">(917) 584 - 2655</span></p>
+
+<div class="contacticons">
+<a href="mailto:daryl.last621@gmail.com" target="_blank"><img style="max-width: 64px;" src="images/mail-send.jpg" alt="envelope" /></a>
+</div>
+
+<p style="text-align:center;">Contact me at <a style="color:#ffabe1;" href="mailto:daryl.last621@gmail.com" target="_blank">daryl.last621@gmail.com</a></p>
+
+<div class="contacticons">
+<a href="https://www.linkedin.com/in/daryl-last-b132bb101/" target="_blank"><img style="max-width: 64px;" src="images/linkedin user.jpg" alt="person icon" /></a>
+</div>
+
+<p style="text-align:center;">Find me on <a style="color:#ffabe1;" href="https://www.linkedin.com/in/daryl-last-b132bb101/" target="_blank">LinkedIn</a></p>
+
+
+<div class="contacticons">
+  <img style="max-width: 64px;" src="images/resume.jpg" alt="pen and paper" />
+  </div>
+
+<div>
+    <p style="text-align:center;"> I look foward to hearing from you!</p>
+</div>
+    </div>
+
+   
+      
+
+
+</body>
+</html>
