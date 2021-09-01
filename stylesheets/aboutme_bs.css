@@ -1,18 +1,17 @@
+body {
 
- body {
+  background-image: url("images/background image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Spartan', sans-serif;
 
-    background-image: url("images/background image.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center center;
-    font-family: 'Spartan', sans-serif;
-  
-  }
+}
 
 
 img {
 
-    padding: 20px;
+  padding: 20px;
 
 }
